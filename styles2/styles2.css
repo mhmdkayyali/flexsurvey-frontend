@@ -9,10 +9,9 @@ body{
 
 .div1{
     background-color: #E5E5E4;
-    margin-right: 25%;
-    margin-left: 25%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+ 
+    margin: 30px auto;
+    max-width: 600px;
 }
 
 .div2{
@@ -23,7 +22,9 @@ body{
 
 .div3{
     padding-left: 30px;
-    padding-bottom: 30px
+    padding-right: 30px;
+    padding-bottom: 30px;
+    
 }
 
 .par{
@@ -46,21 +47,12 @@ body{
 }
 
 
-td{
-    color: #854149;
-}
-
-
-
 textarea{
     resize: none;
-    width: 80%;
-    height: 100px;
+    width: 100%;
+    padding-bottom: 15%;
     border-color: gray;
-}
-
-.addc{
-    color: #854149;
+    margin-bottom: 2%;
 }
 
 .date2{
@@ -75,6 +67,39 @@ textarea{
     flex-direction: column;
 }
 
-.spreada{
-    justify-content: space-around;
+.flex-wrap{
+    align-self: flex-end;
+}
+
+.div1f{
+    justify-content: center;
+}
+
+.width-50{
+    width: 50%;
+}
+
+.color{
+    color: #a6787d;
+}
+
+
+.center{
+    margin-top: 5%;
+    justify-content: center;
+}
+
+.submit{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.pads{
+    width: 90%;
+}
+
+.width-increase{
+    width: 50%;
 }
